@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="filter">
+        <item>All</item>
+        <item>Active</item>
+        <item>Unanswered</item>
+        <item>Answered</item>
+        <item>Closed</item>        
+    </string-array>
+    
+    <string name="app_name">RealFeedback</string>
+    <string name="action_settings">Settings</string>
+    <string name="vote">To vote for an answer enter project code</string>
+    <string name="forExample">eg.71242</string>
+    <string name="go">Go</string>
+    <string name="title_activity_question">Question</string>
+    <string name="title_activity_question_view">Questions</string>
+    <string name="no_questions">There are no questions available. \nPlease try again later.</string>
+    <string name="noConnectionTitle">CONNECTION ERROR</string>
+    <string name="noConnection">Cannot connect to the internet. Please try again later.</string>
+    <string name="noProjectTitle">PROJECT ERROR</string>
+    <string name="noProject">Could not find your project. Please try again.</string>
+    <string name="noCatTitle">CAPTURE ERROR</string>
+    <string name="noCat">Could not load your cat. Please try again later.</string>
+    <string name="noIdTitle">INVALID ID</string>
+    <string name="catImage">Image of a cat.</string>
+    <string name="refresh">Refresh</string>
+    <string name="filter">Filter</string>
+    <string name="logo">Logo</string>
+
+    <color name="grey">#BEBEBE</color>
+    <color name="android_blue_dark">#0099cc</color>
+    <color name="android_blue">#33b5e5</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+
+    <drawable name="picture">#FFFFFF</drawable>
+
+    <string name="title_activity_row">Row</string>
+    <string name="title_activity_show_question">Question</string>
+    <string name="title_activity_show_results">Results</string>
+    <string name="submitAnswer">Submit Answer</string>
+    <string name="showResult">Show Results!</string>
+    <string name="no_radiobutton_message">Please choose an answer.</string>
+    <string name="no_radiobutton_title">No answer selected!</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_cat">Where is the cat?</string>
+    <string name="cat">Please tap the cat.</string>
+
+</resources>

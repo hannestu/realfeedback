@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:showAsAction="always"
+        android:title="@string/refresh"/>
+    
+    <Spinner 
+	    android:id="@+id/spinner"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:entries="@array/filter"
+	    android:showAsAction="always"/>
+
+    
+</menu>

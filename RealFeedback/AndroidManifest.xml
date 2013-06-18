@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="screen.realfeedback"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo"> 
+        
+       
+        <activity
+            android:name="screen.realfeedback.StartActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="screen.realfeedback.QuestionViewActivity"
+            android:label="@string/title_activity_question_view" >
+        </activity>       
+        <activity
+            android:name="screen.realfeedback.ShowQuestionActivity"
+            android:label="@string/title_activity_show_question" >
+        </activity>
+        <activity
+            android:name="screen.realfeedback.ShowResultsActivity"
+            android:label="@string/title_activity_show_results" >
+        </activity>
+        <activity
+            android:name="screen.realfeedback.CatActivity"
+            android:label="@string/title_activity_cat" >
+        </activity>
+    </application>
+    
+</manifest>
